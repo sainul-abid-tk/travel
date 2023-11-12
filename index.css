@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    background-image: url('home.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.main-h{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.nomatter{
+    width: 800px;
+}
+.main-h h1{
+    font-size: 50px;
+    width: 500px;
+}
+.offr h1{
+    color: rgb(3, 3, 78);
+}
+.card img{
+    width: 110px;
+    position: relative;
+}
+.small2{
+    width: 60px;
+    height: 60px;
+    background-color:bisque;
+    left: 75px;
+    border-radius: 0px 10px 0px 10px;
+    bottom: 30px;
+}
+.small1{
+    width: 60px;
+    height: 60px;
+    background-color:bisque;
+    right: 75px;
+    border-radius: 0px 10px 0px 10px;
+    bottom: 0px;
+}
+.small3{
+    width: 60px;
+    height: 60px;
+    background-color:bisque;
+    right: 70px;
+    border-radius: 0px 10px 0px 10px;
+    bottom: 0px;
+}
+.small4{
+    width: 60px;
+    height: 60px;
+    background-color:bisque;
+    right: 65px;
+    border-radius: 0px 10px 0px 10px;
+    bottom: 0px;
+}
+.flight-body{
+    background-color:white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: rgb(214, 215, 216) 0px 0px 23px -10px;
+    position: relative;
+    z-index: 1;
+}
+.flight-main{
+    height: 285px;
+    padding-left: 30px;
+    position: relative;
+}
+.flight-small{
+    width: 70px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    background-color:rgb(239, 48, 48);
+    border-radius: 20px;
+}
+.rom-main{
+    width: 80%;
+}
+.couples{
+    border-radius: 300px 300px 0% 0%;
+    border-top:1px solid rgb(17, 66, 163) ;
+    border-right: 1px solid rgb(237, 2, 190);
+    width: 500px;
+    height: 700px;
+    position: relative;
+}
+.couples img{
+    border-radius: 360px 360px 0px 0px;
+    position: absolute;
+    bottom: 0;
+}
+.round-1{
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    z-index: 1;
+}
+ .round-2{
+    position: absolute;
+    top: 0px;
+    left: -90px;
+    z-index: 1;
+}
+.round-3{
+    position: absolute;
+    left: -150px;
+    top: 250px;
+    z-index: 1;
+}
+.stars{
+    position: absolute;
+    bottom: 0px;
+    right: -50px;
+    z-index: 1;
+}
+.romantic{
+    margin-top: 170px;
+}
+.honey-sp h1{
+    color: rgb(3, 3, 78);
+}
+.honey-sp{
+    width: 600px;
+}
+.Lets-make{
+    background: url('./statue.png');
+    height: 500px;
+    background-size: cover;
+}
+.Lets-make h1{
+    font-size: 60px;
+}
+.paris-1{
+    background: url('./paris1.png');
+}
+.paris-2{
+    background: url('./paris-2.png');
+}
+.paris-3{
+    background: url('./paris-3.png');
+}
+.paris-4{
+    background: url('./paris-4.png');
+}
+.promo-main{
+    height: 500px;
+    padding-top: 10rem;
+}
+.promo-main h1{
+    font-size: 50px;
+}
+.prmo-1{
+    background-image: url('./promo-2.png');
+    background-size: cover;
+}
+.prmo-2{
+    background-image: url('./promo-1.png');
+    background-size: cover;
+}
+.trendy-main{
+    margin-top: 80px;
+}
+.trendy-main h1{
+    color: rgb(3, 3, 78);
+    text-align: center;
+}
+.switz{
+    background: url('switz.png');
+    height: 250px;
+    position: relative;
+}
+.switz img{
+    position: absolute;
+    bottom: -50px;
+}
+.brazil{
+    background: url('./Brazil.png');
+    height: 250px;
+    position: relative;
+}
+.brazil img{
+    position: absolute;
+    bottom: -50px;
+}
+.giza{
+    background: url('./giza.png');
+    height: 250px;
+    position: relative;
+}
+.giza img{
+    position: absolute;
+    bottom: -50px;
+}
+.review-main{
+    background: url('./review-bg.png');
+    height: 700px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .review-main h5{
+    margin-top: 60px;
+} */
+.review-main h1{
+    color: rgb(3, 3, 78);
+    width: 500px;
+    text-align: center;
+} 
+.review{
+    width: 500px;
+    height: 280px;
+    margin-top:90px;
+    background-color: rgb(247, 245, 245);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.person{
+    position: absolute;
+    top: -70px;
+    left: 160px;
+}
+.review h6{
+    margin-top: 50px;
+}
+.left{
+    position: absolute;
+    bottom: 36px;
+    left: -65px;
+}
+.right{
+    position: absolute;
+    bottom: 36px;
+    right: -65px;
+}
+.swap1{
+    width: 60px;
+    height: 5px;
+    border-radius: 40px;
+    background-color:  rgb(199, 176, 176);
+}
+.swap2{
+    width: 50px;
+    height: 5px;
+    border-radius: 40px;
+    background-color: darkred;
+}
+.swap3{
+    width: 50px;
+    height: 5px;
+    border-radius: 40px;
+    background-color: darkred;
+}
